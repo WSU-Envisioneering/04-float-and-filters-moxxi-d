@@ -1,8 +1,91 @@
 /* Your styles go here */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: lightcyan;
+}
+
+header, footer{
+    padding: 2rem;
+    margin: auto;
+    text-align: center;
+    border-style: dashed;
+    background-image: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%)
+}
+
+h1{
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    ul{
+        list-style-type: none;
+    }
+    a{
+        color: dodgerblue;
+    }
+}
+
+nav a:hover{
+    color: aliceblue;
+    background-color: blue;
+}
+
 img{
-    width: 300px;
+    width: 25rem;
+}
+
+article{
+    padding: 3rem;
+    margin: 4rem;
+    p{
+        text-indent: 3rem;
+    }
+    border-style: groove;
+}
+
+article:hover{
+    background-color: #92FE9D;
+    border-style: dotted;
 }
 
 .column{
-    
+    border-style: double;
+    text-align: center;
+}
+
+.column:hover{
+    background-color: #00c8ff9a;
+
+}
+
+figure{
+    text-align: center;
+    margin: auto;
+    padding: 2rem;
+}
+
+.clearfix{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+
+.link{
+    padding: 3rem;
+    font-size: xxx-large;
+    font-family: 'Times New Roman', Times, serif;
+    a{
+        text-decoration: none;
+        color: lightseagreen;
+        text-shadow: 0.5rem 0.5rem rgba(0, 255, 255, 0.562);
+    }
+}
+
+#td{
+    font-size: xxx-large;
+    margin-top: 5rem;
 }
